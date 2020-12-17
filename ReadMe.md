@@ -9,7 +9,7 @@ This is basic Chat application to support sending message and order placed from 
 
 ## Run application
 
-Download this code from [Github]()
+Download this code from [Github](https://github.com/itzfyp/basic-chat.git)
 
 ### Server
 
