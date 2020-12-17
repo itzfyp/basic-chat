@@ -1,0 +1,42 @@
+.checkout {
+	min-height: calc(100vh - 30px);
+	display: grid;
+	grid-template-columns: 1fr minmax(300px, 500px);
+
+	padding: 15px;
+    //box-shadow: 1px 1px 2px 1px  rgba(0, 0, 0, 0.2);
+
+    .card {
+	    padding: 15px;
+	    box-shadow: 1px 1px 2px 1px  rgba(0, 0, 0, 0.2);
+	}
+
+	.chat-box {
+		padding: 15px;
+		 position: relative;
+	}
+
+	.form-group {
+	    display: flex;
+	    flex-direction: column;
+	    padding: 15px;
+	}
+
+	.form-group .form-label {
+	    font-size: 14px;
+	    margin-bottom: 5px;
+	}
+
+	.form-control {
+	  padding: 10px 5px;
+	  box-shadow: 0 -1px 0px 0px  rgba(0, 0, 0, 0.2) inset;
+	  border: none;
+	}
+
+	.btn {
+	    padding: 10px 15px;
+	    box-shadow: 1px 1px 2px 1px  rgba(0, 0, 0, 0.1);
+	    border: none;
+	    cursor: pointer;
+	}
+}
